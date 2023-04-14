@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>QUIZ APP</title>
+</head>
+<body> 
+    <button id="btn-1" onclick="showQuiz()">start quiz</button>
+    <div class="container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">MCQS Test</h2>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="a">
+                    <label for="a" id="a_text">optionA</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="b">
+                    <label for="b" id="b_text">optionB</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="c">
+                    <label for="c" id="c_text">optionC</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="d">
+                    <label for="d" id="d_text">optionD</label>
+                </li>
+            </ul>
+        </div>
+        <button class="btn-2" id="submit">submit</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
